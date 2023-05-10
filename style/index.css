@@ -1,1 +1,71 @@
 /* CSS stillerinizi buraya girin */
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    align-items: center;
+}
+h2{
+    font-size: 24px;
+}
+nav a{
+    border: solid 1px black;
+    padding: 2% 3%;
+}
+nav {
+    width: 25%;
+    text-align: right;
+}
+main{
+    width: 70vw;
+    margin: 0 auto;
+    background: url("https://picsum.photos/seed/picsum/700/500");
+    height:37vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 45px;
+}
+.button{
+    background-color: wheat;
+    font-size: 20px;
+    border: solid 1px black;
+    padding: 2% 3%;
+}
+a{
+    text-decoration: none;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3%;
+}
+section div{
+    width: 30vw;
+    text-align: center;
+}
+section img{
+    width: 100%;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+footer{
+    padding: 4%;
+    text-align: center;
+}
+a:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}

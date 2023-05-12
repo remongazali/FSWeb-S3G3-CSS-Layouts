@@ -69,3 +69,37 @@ a:hover{
     color: white;
     cursor: pointer;
 }
+@media(max-width:500px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+     }
+     nav a{
+        text-align: center;
+     }
+     h2{
+        text-align: center;
+     }
+     main{
+        width: 90vw;
+        margin-top: 5%;
+        height:47vw ;
+        box-sizing: border-box;
+    }
+    section div{
+        width: 40vw;
+        text-align: center;
+    }
+    section{
+        margin: 0 auto;
+        width: 90vw;
+        box-sizing: border-box;
+    }
+    
+    }
